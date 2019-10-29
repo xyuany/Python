@@ -6,7 +6,7 @@ Using the NumPy `datetime64` and `timedelta64` dtypes, we have consolidated a la
 
 `pandas.to_datetime()` covert string type to date series.
 `df.drop()` to remove labelled axis, always one row/column.
-`Series.dt.strftime(_*args_,`  retarray of formatted strings specified by date_format
+`Series.dt.strftime(_*args_,`  return an array of formatted strings specified by date_format, eg: 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM0MTY0ODE0XX0=
+eyJoaXN0b3J5IjpbLTEyODA5OTM1NjBdfQ==
 -->
