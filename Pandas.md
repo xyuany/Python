@@ -7,7 +7,12 @@ Using the NumPy `datetime64` and `timedelta64` dtypes, we have consolidated a la
 `pandas.to_datetime()` covert string type to date series.
 `df.drop()` to remove labelled axis, always one row/column.
 `Series.dt.year`, `Series.dt.month`, `Series.dt.date` return year, month, date of `datetime64` series.
-`Series.dt.strftime(_*args_,`  return an array of formatted strings specified by date_format, eg: `df['Month-Day'] = df['Date'].dt.strftime("%m-%d")`
+
+`Series.dt.strftime(_*args_,`  return an array of formatted strings specified by date_format, eg: 
+```Python
+df['Month-Day'] = df['Date'].dt.strftime("%m-%d")
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzczNDMyNjg1LC05NTQwNjQ2NjhdfQ==
+eyJoaXN0b3J5IjpbLTE4MjE1Mzk3NTUsMzczNDMyNjg1LC05NT
+QwNjQ2NjhdfQ==
 -->
