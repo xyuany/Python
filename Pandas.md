@@ -12,8 +12,9 @@ Using the NumPy `datetime64` and `timedelta64` dtypes, we have consolidated a la
 ## Selecting/Indexing data
 `df.drop()` to remove labelled axis, always one row/column.
 
-## Group
+## Group by: group, apply, aggreate
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NzgxMzA5MywxMzI2NTUyNDc1LC0xOD
+eyJoaXN0b3J5IjpbMTg0OTgyMDY1OSwxMzI2NTUyNDc1LC0xOD
 IxNTM5NzU1LDM3MzQzMjY4NSwtOTU0MDY0NjY4XX0=
 -->
