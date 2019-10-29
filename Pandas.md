@@ -8,8 +8,12 @@ Using the NumPy `datetime64` and `timedelta64` dtypes, we have consolidated a la
 `Series.dt.year`, `Series.dt.month`, `Series.dt.date` return year, month, date of `datetime64` series.  
 `Series.dt.strftime(_*args_,`  return an array of formatted strings specified by date_format, eg: 
 `df['Month-Day'] = df['Date'].dt.strftime("%m-%d")`
+
+## Selecting/Indexing data
 `df.drop()` to remove labelled axis, always one row/column.
+
+## Group
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDgwNTU5ODEsMTMyNjU1MjQ3NSwtMT
-gyMTUzOTc1NSwzNzM0MzI2ODUsLTk1NDA2NDY2OF19
+eyJoaXN0b3J5IjpbMTA0NzgxMzA5MywxMzI2NTUyNDc1LC0xOD
+IxNTM5NzU1LDM3MzQzMjY4NSwtOTU0MDY0NjY4XX0=
 -->
