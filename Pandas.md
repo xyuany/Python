@@ -14,9 +14,11 @@ Using the NumPy `datetime64` and `timedelta64` dtypes, we have consolidated a la
 
 ## Group by: group, apply, aggreate
 ```Python
-df.groupby(by= mapping function / list of functions, dict, Series, or tuple, ist of column names, axis=0, sort= True)`
+df.groupby(by= mapping function / list of functions, dict, Series, or tuple, ['column names'], axis=0, sort= True)
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ0MTA0MjY5LDE4NDk4MjA2NTksMTMyNj
+eyJoaXN0b3J5IjpbNjAyMDk2MjEwLDE4NDk4MjA2NTksMTMyNj
 U1MjQ3NSwtMTgyMTUzOTc1NSwzNzM0MzI2ODUsLTk1NDA2NDY2
 OF19
 -->
