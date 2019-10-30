@@ -35,8 +35,8 @@ Summary of [https://matplotlib.org/tutorials/index.html](https://matplotlib.org/
 [`gca()`](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.gca.html#matplotlib.pyplot.gca "matplotlib.pyplot.gca") returns the current axes (a [`matplotlib.axes.Axes`](https://matplotlib.org/api/axes_api.html#matplotlib.axes.Axes "matplotlib.axes.Axes") instance), and [`gcf()`](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.gcf.html#matplotlib.pyplot.gcf "matplotlib.pyplot.gcf") returns the current figure ([`matplotlib.figure.Figure`](https://matplotlib.org/api/_as_gen/matplotlib.figure.Figure.html#matplotlib.figure.Figure "matplotlib.figure.Figure") instance).
 
 ```Python
-plt.gca().fill_between(range(len(linear_data)), 
-                       data1, data2, 
+plt.gca().fill_between(range(len(linear_data)), #Must contain x axis 
+                       data1, data2, # y axis data
                        facecolor='blue', 
                        alpha=0.25)
 ```
@@ -47,6 +47,7 @@ plt.plot(dates, data)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0Nzk0OTI5OCwyMDk3NDUzNzkyLDEyND
-U5MDkwMzAsLTExNTc2MTM4NjcsLTEwNDEzODE4N119
+eyJoaXN0b3J5IjpbMTE5NDc2MzA0LC05NDc5NDkyOTgsMjA5Nz
+Q1Mzc5MiwxMjQ1OTA5MDMwLC0xMTU3NjEzODY3LC0xMDQxMzgx
+ODddfQ==
 -->
