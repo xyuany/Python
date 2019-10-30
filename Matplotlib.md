@@ -43,11 +43,11 @@ plt.gca().fill_between(range(len(linear_data)), #Must contain x axis
 Plot with dates
 ```Python
 dates = np.arange('2017-01-01', '2017-01-09', dtype='datetime64[D]')
-plt.plot(dates, data)
+plt.plot(dates, data) # To have a date x-axis
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NDc2MzA0LC05NDc5NDkyOTgsMjA5Nz
-Q1Mzc5MiwxMjQ1OTA5MDMwLC0xMTU3NjEzODY3LC0xMDQxMzgx
-ODddfQ==
+eyJoaXN0b3J5IjpbMTM0NjA5MTY4OSwxMTk0NzYzMDQsLTk0Nz
+k0OTI5OCwyMDk3NDUzNzkyLDEyNDU5MDkwMzAsLTExNTc2MTM4
+NjcsLTEwNDEzODE4N119
 -->
