@@ -33,21 +33,25 @@ Summary of [https://matplotlib.org/tutorials/index.html](https://matplotlib.org/
 ![../../_images/anatomy.png](https://matplotlib.org/_images/anatomy.png)
 
 [`gca()`](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.gca.html#matplotlib.pyplot.gca "matplotlib.pyplot.gca") returns the current axes (a [`matplotlib.axes.Axes`](https://matplotlib.org/api/axes_api.html#matplotlib.axes.Axes "matplotlib.axes.Axes") instance), and [`gcf()`](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.gcf.html#matplotlib.pyplot.gcf "matplotlib.pyplot.gcf") returns the current figure ([`matplotlib.figure.Figure`](https://matplotlib.org/api/_as_gen/matplotlib.figure.Figure.html#matplotlib.figure.Figure "matplotlib.figure.Figure") instance).
-
+```python
+plt.legend(['legend'],
+          frameon = False, 
+          loc = (0.25,0.015))
+      
 ```Python
 plt.gca().fill_between(range(len(linear_data)), #Must contain x axis 
                        data1, data2, # y axis data
                        facecolor='blue', 
                        alpha=0.25)
 ```
-Plot with dates
+## Plot with dates
 ```Python
 dates = np.arange('2017-01-01', '2017-01-09', dtype='datetime64[D]')
 plt.plot(dates, data) # To have a date x-axis
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NjA5MTY4OSwxMTk0NzYzMDQsLTk0Nz
-k0OTI5OCwyMDk3NDUzNzkyLDEyNDU5MDkwMzAsLTExNTc2MTM4
-NjcsLTEwNDEzODE4N119
+eyJoaXN0b3J5IjpbLTgxMDMyNzcwNSwxMzQ2MDkxNjg5LDExOT
+Q3NjMwNCwtOTQ3OTQ5Mjk4LDIwOTc0NTM3OTIsMTI0NTkwOTAz
+MCwtMTE1NzYxMzg2NywtMTA0MTM4MTg3XX0=
 -->
