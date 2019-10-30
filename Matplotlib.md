@@ -61,15 +61,15 @@ ax.xaxis.set_major_locator(mdates.MonthLocator())
 ax.xaxis.set_minor_locator(mdates.DayLocator(bymonthday=15))
 ax.xaxis.set_major_formatter(ticker.NullFormatter())
 ax.xaxis.set_minor_formatter(mdates.DateFormatter('%b'))
-# To move x labels to center, could achieve by 
+# To move x labels to center, could achieve by hide minor locator, it is a fake method
 for label in ax.xaxis.get_minor_ticks():
     label.tick1line.set_markersize(0)
     label.label1.set_horizontalalignment('center')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTA0ODQ4NzEsLTgyMjU1MzkyMCw0MD
-gwOTUzMjAsMTM0NjA5MTY4OSwxMTk0NzYzMDQsLTk0Nzk0OTI5
-OCwyMDk3NDUzNzkyLDEyNDU5MDkwMzAsLTExNTc2MTM4NjcsLT
-EwNDEzODE4N119
+eyJoaXN0b3J5IjpbLTc3NTkwNDg0LC04MjI1NTM5MjAsNDA4MD
+k1MzIwLDEzNDYwOTE2ODksMTE5NDc2MzA0LC05NDc5NDkyOTgs
+MjA5NzQ1Mzc5MiwxMjQ1OTA5MDMwLC0xMTU3NjEzODY3LC0xMD
+QxMzgxODddfQ==
 -->
