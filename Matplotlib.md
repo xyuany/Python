@@ -28,7 +28,9 @@ The script using the API above works very well, especially for programmers, and 
 `ax = gca()` invokes the stateful machinery to "get current Axes" (each Python interpreter can have only one "current axes"). 
 
 # Tutorials
+Summary of [https://matplotlib.org/tutorials/index.html](https://matplotlib.org/tutorials/index.html)  
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTc2OTcwMDVdfQ==
+eyJoaXN0b3J5IjpbLTEwNDEzODE4N119
 -->
