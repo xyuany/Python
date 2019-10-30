@@ -50,10 +50,23 @@ plt.gca().fill_between(range(len(linear_data)), #Must contain x axis
 dates = np.arange('2017-01-01', '2017-01-09', dtype='datetime64[D]')
 plt.plot(dates, data) # To have a date x-axis
 ```
-```ax.xaxis.set_minor_formatter(mdates.DateFormatter("%b"))```
+More information about tick and locator could read following:
+
+
+```python
+import matplotlib.dates as mdates
+import matplotlib.ticker as ticker
+ax.xaxis.set_major_locator(mdates.MonthLocator())
+ax.xaxis.set_minor_locator(mdates.DayLocator(bymonthday=15))
+ax.xaxis.set_major_formatter(ticker.NullFormatter())
+ax.xaxis.set_minor_formatter(mdates.DateFormatter('%b'))
+
+ax.xaxis.set_minor_formatter(mdates.DateFormatter("%b"))
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMjU1MzkyMCw0MDgwOTUzMjAsMTM0Nj
-A5MTY4OSwxMTk0NzYzMDQsLTk0Nzk0OTI5OCwyMDk3NDUzNzky
-LDEyNDU5MDkwMzAsLTExNTc2MTM4NjcsLTEwNDEzODE4N119
+eyJoaXN0b3J5IjpbMTUzNDI1NDAyMSwtODIyNTUzOTIwLDQwOD
+A5NTMyMCwxMzQ2MDkxNjg5LDExOTQ3NjMwNCwtOTQ3OTQ5Mjk4
+LDIwOTc0NTM3OTIsMTI0NTkwOTAzMCwtMTE1NzYxMzg2NywtMT
+A0MTM4MTg3XX0=
 -->
