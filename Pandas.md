@@ -14,11 +14,12 @@ Using the NumPy `datetime64` and `timedelta64` dtypes, we have consolidated a la
 `df.set_index()` Set the index
 `df.reindex()`
 `df.reset_index()` 
+
 To change index but keep the old index
 ```python
 df.reset_index().set_index('New Index')
 #or
-df.set_index('New Index',)
+df.set_index('New Index', append = True)
 ```
 
 ## Group by: group, apply, aggreate
@@ -27,7 +28,7 @@ df/Series.groupby(by= mapping function / list of functions, dict, Series, or tup
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzAwOTEwNiw4NDg4OTc4OTQsOTY2MT
-c4MTgyLDYwMjA5NjIxMCwxODQ5ODIwNjU5LDEzMjY1NTI0NzUs
-LTE4MjE1Mzk3NTUsMzczNDMyNjg1LC05NTQwNjQ2NjhdfQ==
+eyJoaXN0b3J5IjpbMjE1MTQ0NjksODQ4ODk3ODk0LDk2NjE3OD
+E4Miw2MDIwOTYyMTAsMTg0OTgyMDY1OSwxMzI2NTUyNDc1LC0x
+ODIxNTM5NzU1LDM3MzQzMjY4NSwtOTU0MDY0NjY4XX0=
 -->
