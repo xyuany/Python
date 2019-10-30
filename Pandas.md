@@ -11,6 +11,8 @@ Using the NumPy `datetime64` and `timedelta64` dtypes, we have consolidated a la
 
 ## Selecting/Indexing data
 `df.drop()` to remove labelled axis, always one row/column.
+`df.reindex()`
+`df.reset_index()`
 
 ## Group by: group, apply, aggreate
 ```Python
@@ -18,7 +20,7 @@ df/Series.groupby(by= mapping function / list of functions, dict, Series, or tup
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY2MTc4MTgyLDYwMjA5NjIxMCwxODQ5OD
-IwNjU5LDEzMjY1NTI0NzUsLTE4MjE1Mzk3NTUsMzczNDMyNjg1
-LC05NTQwNjQ2NjhdfQ==
+eyJoaXN0b3J5IjpbLTExOTk5MzY0MDMsOTY2MTc4MTgyLDYwMj
+A5NjIxMCwxODQ5ODIwNjU5LDEzMjY1NTI0NzUsLTE4MjE1Mzk3
+NTUsMzczNDMyNjg1LC05NTQwNjQ2NjhdfQ==
 -->
