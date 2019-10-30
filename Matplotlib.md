@@ -30,7 +30,9 @@ The script using the API above works very well, especially for programmers, and 
 # Tutorials
 Summary of [https://matplotlib.org/tutorials/index.html](https://matplotlib.org/tutorials/index.html)  
 
+![../../_images/anatomy.png](https://matplotlib.org/_images/anatomy.png)
 
+[`gca()`](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.gca.html#matplotlib.pyplot.gca "matplotlib.pyplot.gca") returns the current axes (a [`matplotlib.axes.Axes`](https://matplotlib.org/api/axes_api.html#matplotlib.axes.Axes "matplotlib.axes.Axes") instance), and [`gcf()`](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.gcf.html#matplotlib.pyplot.gcf "matplotlib.pyplot.gcf") returns the current figure ([`matplotlib.figure.Figure`](https://matplotlib.org/api/_as_gen/matplotlib.figure.Figure.html#matplotlib.figure.Figure "matplotlib.figure.Figure") instance).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDEzODE4N119
+eyJoaXN0b3J5IjpbLTExNTc2MTM4NjcsLTEwNDEzODE4N119
 -->
