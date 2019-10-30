@@ -40,8 +40,12 @@ plt.gca().fill_between(range(len(linear_data)),
                        facecolor='blue', 
                        alpha=0.25)
 ```
-
+Plot with dates
+```Python
+dates = np.arange('2017-01-01', '2017-01-09', dtype='datetime64[D]')
+plt.plot(dates, data)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NTkwOTAzMCwtMTE1NzYxMzg2NywtMT
-A0MTM4MTg3XX0=
+eyJoaXN0b3J5IjpbMjA5NzQ1Mzc5MiwxMjQ1OTA5MDMwLC0xMT
+U3NjEzODY3LC0xMDQxMzgxODddfQ==
 -->
