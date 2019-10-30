@@ -34,7 +34,8 @@ Summary of [https://matplotlib.org/tutorials/index.html](https://matplotlib.org/
 
 [`gca()`](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.gca.html#matplotlib.pyplot.gca "matplotlib.pyplot.gca") returns the current axes (a [`matplotlib.axes.Axes`](https://matplotlib.org/api/axes_api.html#matplotlib.axes.Axes "matplotlib.axes.Axes") instance), and [`gcf()`](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.gcf.html#matplotlib.pyplot.gcf "matplotlib.pyplot.gcf") returns the current figure ([`matplotlib.figure.Figure`](https://matplotlib.org/api/_as_gen/matplotlib.figure.Figure.html#matplotlib.figure.Figure "matplotlib.figure.Figure") instance).
 
-`plt.axis([x_start,x_end,y_start,y_end])`, `plt.`Change x axis/y axis range
+Change x axis/y axis range: 
+`plt.axis([x_start,x_end,y_start,y_end])`, `plt.xlim()`, `plt.ylim`  
 ```python
 plt.legend(['legend'],
           frameon = False, # Control the frame of legend
@@ -59,6 +60,7 @@ Locator Formatter: [https://matplotlib.org/3.1.1/gallery/ticks_and_spines/tick-l
 ```python
 import matplotlib.dates as mdates
 import matplotlib.ticker as ticker
+
 ax.xaxis.set_major_locator(mdates.MonthLocator())
 ax.xaxis.set_minor_locator(mdates.DayLocator(bymonthday=15))
 ax.xaxis.set_major_formatter(ticker.NullFormatter())
@@ -72,7 +74,7 @@ for label in ax.xaxis.get_minor_ticks():
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjI0NDA2MzQsNDI2MTY2ODMxLC04Mj
+eyJoaXN0b3J5IjpbLTE2NzcxNDgwNzYsNDI2MTY2ODMxLC04Mj
 I1NTM5MjAsNDA4MDk1MzIwLDEzNDYwOTE2ODksMTE5NDc2MzA0
 LC05NDc5NDkyOTgsMjA5NzQ1Mzc5MiwxMjQ1OTA5MDMwLC0xMT
 U3NjEzODY3LC0xMDQxMzgxODddfQ==
