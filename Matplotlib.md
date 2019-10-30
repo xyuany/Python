@@ -45,7 +45,8 @@ Plot with dates
 dates = np.arange('2017-01-01', '2017-01-09', dtype='datetime64[D]')
 plt.plot(dates, data)
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NzQ1Mzc5MiwxMjQ1OTA5MDMwLC0xMT
-U3NjEzODY3LC0xMDQxMzgxODddfQ==
+eyJoaXN0b3J5IjpbLTk0Nzk0OTI5OCwyMDk3NDUzNzkyLDEyND
+U5MDkwMzAsLTExNTc2MTM4NjcsLTEwNDEzODE4N119
 -->
