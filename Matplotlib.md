@@ -33,6 +33,8 @@ Summary of [https://matplotlib.org/tutorials/index.html](https://matplotlib.org/
 ![../../_images/anatomy.png](https://matplotlib.org/_images/anatomy.png)
 
 [`gca()`](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.gca.html#matplotlib.pyplot.gca "matplotlib.pyplot.gca") returns the current axes (a [`matplotlib.axes.Axes`](https://matplotlib.org/api/axes_api.html#matplotlib.axes.Axes "matplotlib.axes.Axes") instance), and [`gcf()`](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.gcf.html#matplotlib.pyplot.gcf "matplotlib.pyplot.gcf") returns the current figure ([`matplotlib.figure.Figure`](https://matplotlib.org/api/_as_gen/matplotlib.figure.Figure.html#matplotlib.figure.Figure "matplotlib.figure.Figure") instance).
+
+Change x axis/y axis range
 ```python
 plt.legend(['legend'],
           frameon = False, # Control the frame of legend
@@ -62,7 +64,7 @@ ax.xaxis.set_minor_locator(mdates.DayLocator(bymonthday=15))
 ax.xaxis.set_major_formatter(ticker.NullFormatter())
 ax.xaxis.set_minor_formatter(mdates.DateFormatter('%b'))
 ```
-To move x labels to center, could achieve by hide minor locator, it is a fake method
+To move x labels to center, could achieve by hide minor locator, it is a fake method ([https://matplotlib.org/3.1.1/gallery/ticks_and_spines/centered_ticklabels.html](https://matplotlib.org/3.1.1/gallery/ticks_and_spines/centered_ticklabels.html))
 ```python
 for label in ax.xaxis.get_minor_ticks():
     label.tick1line.set_markersize(0)
@@ -70,8 +72,8 @@ for label in ax.xaxis.get_minor_ticks():
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI2MTY2ODMxLC04MjI1NTM5MjAsNDA4MD
-k1MzIwLDEzNDYwOTE2ODksMTE5NDc2MzA0LC05NDc5NDkyOTgs
-MjA5NzQ1Mzc5MiwxMjQ1OTA5MDMwLC0xMTU3NjEzODY3LC0xMD
-QxMzgxODddfQ==
+eyJoaXN0b3J5IjpbLTE1MjQ1MjQzOTIsNDI2MTY2ODMxLC04Mj
+I1NTM5MjAsNDA4MDk1MzIwLDEzNDYwOTE2ODksMTE5NDc2MzA0
+LC05NDc5NDkyOTgsMjA5NzQ1Mzc5MiwxMjQ1OTA5MDMwLC0xMT
+U3NjEzODY3LC0xMDQxMzgxODddfQ==
 -->
