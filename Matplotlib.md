@@ -35,9 +35,10 @@ Summary of [https://matplotlib.org/tutorials/index.html](https://matplotlib.org/
 [`gca()`](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.gca.html#matplotlib.pyplot.gca "matplotlib.pyplot.gca") returns the current axes (a [`matplotlib.axes.Axes`](https://matplotlib.org/api/axes_api.html#matplotlib.axes.Axes "matplotlib.axes.Axes") instance), and [`gcf()`](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.gcf.html#matplotlib.pyplot.gcf "matplotlib.pyplot.gcf") returns the current figure ([`matplotlib.figure.Figure`](https://matplotlib.org/api/_as_gen/matplotlib.figure.Figure.html#matplotlib.figure.Figure "matplotlib.figure.Figure") instance).
 ```python
 plt.legend(['legend'],
-          frameon = False, 
-          loc = (0.25,0.015))
-      
+          frameon = False, # Control the frame of legend
+          loc = (0.25,0.015) # location, Left-lower corner, 0 is 'best', tuple is coordinates
+          )
+```
 ```Python
 plt.gca().fill_between(range(len(linear_data)), #Must contain x axis 
                        data1, data2, # y axis data
@@ -51,7 +52,7 @@ plt.plot(dates, data) # To have a date x-axis
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMDMyNzcwNSwxMzQ2MDkxNjg5LDExOT
-Q3NjMwNCwtOTQ3OTQ5Mjk4LDIwOTc0NTM3OTIsMTI0NTkwOTAz
-MCwtMTE1NzYxMzg2NywtMTA0MTM4MTg3XX0=
+eyJoaXN0b3J5IjpbNDA4MDk1MzIwLDEzNDYwOTE2ODksMTE5ND
+c2MzA0LC05NDc5NDkyOTgsMjA5NzQ1Mzc5MiwxMjQ1OTA5MDMw
+LC0xMTU3NjEzODY3LC0xMDQxMzgxODddfQ==
 -->
