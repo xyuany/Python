@@ -27,7 +27,8 @@ The most important composite artist is the **`Axes`**, which is where most of th
 The script using the API above works very well, especially for programmers, and is usually the appropriate programming paradigm when writing a web application server, a UI application, or perhaps a script to be shared with other developers.  
 `ax = gca()` invokes the stateful machinery to "get current Axes" (each Python interpreter can have only one "current axes"). 
 
-# 
+# Tutorials
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE1MDU4Mzk0XX0=
+eyJoaXN0b3J5IjpbLTE5OTc2OTcwMDVdfQ==
 -->
