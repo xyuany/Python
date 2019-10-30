@@ -24,4 +24,10 @@ There are two types of `Artist`s in the hierarchy. _Primitive_ artists represent
 
 The most important composite artist is the **`Axes`**, which is where most of the matplotlib API plotting methods are defined. Not only does the `Axes` contain most of the graphical elements that make up the background of the plot—***the ticks, the axis lines, the grid, the patch of color which is the plot background***—it contains numerous helper methods that create primitive artists and add them to the `Axes` instance.  
 ## Scripting Layer (pyplot)  
-The script using the API above works very well, especially for programmers, and is usually the appropriate programming paradigm when writing a web application server, a UI application, or perhaps a script to be shared with other developers.
+The script using the API above works very well, especially for programmers, and is usually the appropriate programming paradigm when writing a web application server, a UI application, or perhaps a script to be shared with other developers.  
+`ax = gca()` invokes the stateful machinery to "get current Axes" (each Python interpreter can have only one "current axes"). 
+
+# 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNzE1MDU4Mzk0XX0=
+-->
