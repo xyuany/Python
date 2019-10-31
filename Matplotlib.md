@@ -61,7 +61,7 @@ plt.subplots(2,gridspec_kw={'hspace': 0} )	#height reserved for space between su
 # create a 3x3 grid of subplots
 fig, ((ax1,ax2,ax3), (ax4,ax5,ax6), (ax7,ax8,ax9)) = plt.subplots(3, 3, sharex=True, sharey=True)
 ```
-Create c
+Create customlized subplot. Use [`GridSpec`](https://matplotlib.org/api/_as_gen/matplotlib.gridspec.GridSpec.html#matplotlib.gridspec.GridSpec "matplotlib.gridspec.GridSpec"). 
 *****
 ## Axes
 
@@ -94,7 +94,7 @@ for label in ax.xaxis.get_minor_ticks():
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkzNDUxNTAyLC0zMDE3Mjc2ODMsMTg2MD
+eyJoaXN0b3J5IjpbMzU0MTY3OTcwLC0zMDE3Mjc2ODMsMTg2MD
 IwMTAzNiwxMzU5NjU2MDIsLTE4NjU3MjIxNDIsLTExMzcwMTUw
 MTYsLTg4MDA5OTU5MywtMTIxNDgzMTk3Niw0MjYxNjY4MzEsLT
 gyMjU1MzkyMCw0MDgwOTUzMjAsMTM0NjA5MTY4OSwxMTk0NzYz
