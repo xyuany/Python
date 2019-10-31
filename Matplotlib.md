@@ -141,16 +141,21 @@ from matplotlib.cm import get_cmap
 from matplotlib.colors import Normalize
 
 # Normalize is a class, when called, could normalize number
-norm = Normalize(vmin=None, vmax=None) #return a scale
+norm = Normalize(vmin=None, vmax=None) 
+color_intensity = norm(data)
+
+#To get color
+get_cmap`(_name=None_, _lut=None_)
+
 ```
 ## Animation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMjIyODk0MiwxNzQzMjk5MjkxLDEyMD
-Q1MzkwMTAsMzI4Mjg1MzU4LC0xNDM0NTQ5ODgsLTMwMTcyNzY4
-MywxODYwMjAxMDM2LDEzNTk2NTYwMiwtMTg2NTcyMjE0MiwtMT
-EzNzAxNTAxNiwtODgwMDk5NTkzLC0xMjE0ODMxOTc2LDQyNjE2
-NjgzMSwtODIyNTUzOTIwLDQwODA5NTMyMCwxMzQ2MDkxNjg5LD
-ExOTQ3NjMwNCwtOTQ3OTQ5Mjk4LDIwOTc0NTM3OTIsMTI0NTkw
-OTAzMF19
+eyJoaXN0b3J5IjpbLTMyNzYzNzk3LDE3NDMyOTkyOTEsMTIwND
+UzOTAxMCwzMjgyODUzNTgsLTE0MzQ1NDk4OCwtMzAxNzI3Njgz
+LDE4NjAyMDEwMzYsMTM1OTY1NjAyLC0xODY1NzIyMTQyLC0xMT
+M3MDE1MDE2LC04ODAwOTk1OTMsLTEyMTQ4MzE5NzYsNDI2MTY2
+ODMxLC04MjI1NTM5MjAsNDA4MDk1MzIwLDEzNDYwOTE2ODksMT
+E5NDc2MzA0LC05NDc5NDkyOTgsMjA5NzQ1Mzc5MiwxMjQ1OTA5
+MDMwXX0=
 -->
