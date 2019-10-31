@@ -58,6 +58,12 @@ plt.gca().fill_between(range(len(linear_data)), #Must contain x axis
                        alpha=0.25)
 ```
 
+### Barplot
+```python
+plt.bar(x_lables, data, 
+		yerr = staderr*1.96, # yax
+		tick_label = x_lables, capsize = 4, color=color )
+```
 ### Heatmaps
 ```python
 plt.hist2d(X, Y, bins=25)
@@ -127,11 +133,11 @@ for label in ax.xaxis.get_minor_ticks():
 ## Animation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNDUzOTAxMCwzMjgyODUzNTgsLTE0Mz
-Q1NDk4OCwtMzAxNzI3NjgzLDE4NjAyMDEwMzYsMTM1OTY1NjAy
-LC0xODY1NzIyMTQyLC0xMTM3MDE1MDE2LC04ODAwOTk1OTMsLT
-EyMTQ4MzE5NzYsNDI2MTY2ODMxLC04MjI1NTM5MjAsNDA4MDk1
-MzIwLDEzNDYwOTE2ODksMTE5NDc2MzA0LC05NDc5NDkyOTgsMj
-A5NzQ1Mzc5MiwxMjQ1OTA5MDMwLC0xMTU3NjEzODY3LC0xMDQx
-MzgxODddfQ==
+eyJoaXN0b3J5IjpbNzYwNDcyMzAyLDEyMDQ1MzkwMTAsMzI4Mj
+g1MzU4LC0xNDM0NTQ5ODgsLTMwMTcyNzY4MywxODYwMjAxMDM2
+LDEzNTk2NTYwMiwtMTg2NTcyMjE0MiwtMTEzNzAxNTAxNiwtOD
+gwMDk5NTkzLC0xMjE0ODMxOTc2LDQyNjE2NjgzMSwtODIyNTUz
+OTIwLDQwODA5NTMyMCwxMzQ2MDkxNjg5LDExOTQ3NjMwNCwtOT
+Q3OTQ5Mjk4LDIwOTc0NTM3OTIsMTI0NTkwOTAzMCwtMTE1NzYx
+Mzg2N119
 -->
