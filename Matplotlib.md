@@ -54,8 +54,9 @@ To create subplot. create 1 row, 2 column, with the first axes.
 plt.subplot(1, 2, 2,
 			sharey=ax1) # Have fixed y axis with (1,2,1)
 
-plt.subplots(2, )			
-gridspec_kw={dict} # keywords passed to the [`GridSpec`](https://matplotlib.org/3.1.0/api/_as_gen/matplotlib.gridspec.GridSpec.html#matplotlib.gridspec.GridSpec "matplotlib.gridspec.GridSpec") constructor used to create the grid the subplots are placed on)
+#To draw 2 vertical plots
+plt.subplots(2,gridspec_kw={dict} )	# keywords passed to the GridSpec constructor used to create the grid the subplots are placed on)		
+ 
 # create a 3x3 grid of subplots
 fig, ((ax1,ax2,ax3), (ax4,ax5,ax6), (ax7,ax8,ax9)) = plt.subplots(3, 3, sharex=True, sharey=True)
 ```
@@ -85,9 +86,9 @@ for label in ax.xaxis.get_minor_ticks():
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NDgxMjQ3OSwtMTg2NTcyMjE0MiwtMT
-EzNzAxNTAxNiwtODgwMDk5NTkzLC0xMjE0ODMxOTc2LDQyNjE2
-NjgzMSwtODIyNTUzOTIwLDQwODA5NTMyMCwxMzQ2MDkxNjg5LD
-ExOTQ3NjMwNCwtOTQ3OTQ5Mjk4LDIwOTc0NTM3OTIsMTI0NTkw
-OTAzMCwtMTE1NzYxMzg2NywtMTA0MTM4MTg3XX0=
+eyJoaXN0b3J5IjpbLTE4NDcyNDIxNzMsLTE4NjU3MjIxNDIsLT
+ExMzcwMTUwMTYsLTg4MDA5OTU5MywtMTIxNDgzMTk3Niw0MjYx
+NjY4MzEsLTgyMjU1MzkyMCw0MDgwOTUzMjAsMTM0NjA5MTY4OS
+wxMTk0NzYzMDQsLTk0Nzk0OTI5OCwyMDk3NDUzNzkyLDEyNDU5
+MDkwMzAsLTExNTc2MTM4NjcsLTEwNDEzODE4N119
 -->
