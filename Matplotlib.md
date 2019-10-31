@@ -114,7 +114,9 @@ dates = np.arange('2017-01-01', '2017-01-09', dtype='datetime64[D]')
 plt.plot(dates, data) # To have a date x-axis
 ```
 More information about tick and locator could read following:
+
 Tick Formatter: [https://matplotlib.org/3.1.1/gallery/ticks_and_spines/tick-formatters.html](https://matplotlib.org/3.1.1/gallery/ticks_and_spines/tick-formatters.html)
+
 Locator Formatter: [https://matplotlib.org/3.1.1/gallery/ticks_and_spines/tick-locators.html](https://matplotlib.org/3.1.1/gallery/ticks_and_spines/tick-locators.html)
 
 ```python
@@ -135,7 +137,7 @@ for label in ax.xaxis.get_minor_ticks():
 ## Animation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2Mzc1NzMxNywxNzQzMjk5MjkxLDEyMD
+eyJoaXN0b3J5IjpbMTA3OTg5NDgxNSwxNzQzMjk5MjkxLDEyMD
 Q1MzkwMTAsMzI4Mjg1MzU4LC0xNDM0NTQ5ODgsLTMwMTcyNzY4
 MywxODYwMjAxMDM2LDEzNTk2NTYwMiwtMTg2NTcyMjE0MiwtMT
 EzNzAxNTAxNiwtODgwMDk5NTkzLC0xMjE0ODMxOTc2LDQyNjE2
