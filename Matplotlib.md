@@ -81,6 +81,7 @@ Then we could get the figure.
 
 `Axes` as a class and have lots of attributes, including ploting, axis/limits. The following list some useful attributes. 
 
+`ax.invert_xaxis()`
 
 ## Plot with dates
 ```Python
@@ -108,10 +109,11 @@ for label in ax.xaxis.get_minor_ticks():
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzQ1NDk4OCwtMzAxNzI3NjgzLDE4Nj
-AyMDEwMzYsMTM1OTY1NjAyLC0xODY1NzIyMTQyLC0xMTM3MDE1
-MDE2LC04ODAwOTk1OTMsLTEyMTQ4MzE5NzYsNDI2MTY2ODMxLC
-04MjI1NTM5MjAsNDA4MDk1MzIwLDEzNDYwOTE2ODksMTE5NDc2
-MzA0LC05NDc5NDkyOTgsMjA5NzQ1Mzc5MiwxMjQ1OTA5MDMwLC
-0xMTU3NjEzODY3LC0xMDQxMzgxODddfQ==
+eyJoaXN0b3J5IjpbLTE3MjE0OTk4NTgsLTE0MzQ1NDk4OCwtMz
+AxNzI3NjgzLDE4NjAyMDEwMzYsMTM1OTY1NjAyLC0xODY1NzIy
+MTQyLC0xMTM3MDE1MDE2LC04ODAwOTk1OTMsLTEyMTQ4MzE5Nz
+YsNDI2MTY2ODMxLC04MjI1NTM5MjAsNDA4MDk1MzIwLDEzNDYw
+OTE2ODksMTE5NDc2MzA0LC05NDc5NDkyOTgsMjA5NzQ1Mzc5Mi
+wxMjQ1OTA5MDMwLC0xMTU3NjEzODY3LC0xMDQxMzgxODddfQ==
+
 -->
