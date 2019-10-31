@@ -61,6 +61,11 @@ plt.subplots(2,gridspec_kw={'hspace': 0} )	#height reserved for space between su
 # create a 3x3 grid of subplots
 fig, ((ax1,ax2,ax3), (ax4,ax5,ax6), (ax7,ax8,ax9)) = plt.subplots(3, 3, sharex=True, sharey=True)
 ```
+*****
+## Axes
+
+`Axes` as a class and 
+
 ## Plot with dates
 ```Python
 dates = np.arange('2017-01-01', '2017-01-09', dtype='datetime64[D]')
@@ -87,9 +92,10 @@ for label in ax.xaxis.get_minor_ticks():
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1OTY1NjAyLC0xODY1NzIyMTQyLC0xMT
-M3MDE1MDE2LC04ODAwOTk1OTMsLTEyMTQ4MzE5NzYsNDI2MTY2
-ODMxLC04MjI1NTM5MjAsNDA4MDk1MzIwLDEzNDYwOTE2ODksMT
-E5NDc2MzA0LC05NDc5NDkyOTgsMjA5NzQ1Mzc5MiwxMjQ1OTA5
-MDMwLC0xMTU3NjEzODY3LC0xMDQxMzgxODddfQ==
+eyJoaXN0b3J5IjpbMTg2MDIwMTAzNiwxMzU5NjU2MDIsLTE4Nj
+U3MjIxNDIsLTExMzcwMTUwMTYsLTg4MDA5OTU5MywtMTIxNDgz
+MTk3Niw0MjYxNjY4MzEsLTgyMjU1MzkyMCw0MDgwOTUzMjAsMT
+M0NjA5MTY4OSwxMTk0NzYzMDQsLTk0Nzk0OTI5OCwyMDk3NDUz
+NzkyLDEyNDU5MDkwMzAsLTExNTc2MTM4NjcsLTEwNDEzODE4N1
+19
 -->
