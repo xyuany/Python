@@ -55,7 +55,8 @@ plt.subplot(1, 2, 2,
 			sharey=ax1) # Have fixed y axis with (1,2,1)
 
 #To draw 2 vertical plots
-plt.subplots(2,gridspec_kw={dict} )	# keywords passed to the GridSpec constructor used to create the grid the subplots are placed on)		
+# keywords passed to the GridSpec constructor used to create the grid the subplots are placed on)		
+plt.subplots(2,gridspec_kw={'hspace': 0} )	#height reserved for space between subplots
  
 # create a 3x3 grid of subplots
 fig, ((ax1,ax2,ax3), (ax4,ax5,ax6), (ax7,ax8,ax9)) = plt.subplots(3, 3, sharex=True, sharey=True)
@@ -86,9 +87,9 @@ for label in ax.xaxis.get_minor_ticks():
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDcyNDIxNzMsLTE4NjU3MjIxNDIsLT
-ExMzcwMTUwMTYsLTg4MDA5OTU5MywtMTIxNDgzMTk3Niw0MjYx
-NjY4MzEsLTgyMjU1MzkyMCw0MDgwOTUzMjAsMTM0NjA5MTY4OS
-wxMTk0NzYzMDQsLTk0Nzk0OTI5OCwyMDk3NDUzNzkyLDEyNDU5
-MDkwMzAsLTExNTc2MTM4NjcsLTEwNDEzODE4N119
+eyJoaXN0b3J5IjpbMTM1OTY1NjAyLC0xODY1NzIyMTQyLC0xMT
+M3MDE1MDE2LC04ODAwOTk1OTMsLTEyMTQ4MzE5NzYsNDI2MTY2
+ODMxLC04MjI1NTM5MjAsNDA4MDk1MzIwLDEzNDYwOTE2ODksMT
+E5NDc2MzA0LC05NDc5NDkyOTgsMjA5NzQ1Mzc5MiwxMjQ1OTA5
+MDMwLC0xMTU3NjEzODY3LC0xMDQxMzgxODddfQ==
 -->
