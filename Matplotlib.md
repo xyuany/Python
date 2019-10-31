@@ -64,7 +64,7 @@ fig, ((ax1,ax2,ax3), (ax4,ax5,ax6), (ax7,ax8,ax9)) = plt.subplots(3, 3, sharex=T
 *****
 ## Axes
 
-`Axes` as a class and 
+`Axes` as a class and ha
 
 ## Plot with dates
 ```Python
@@ -92,10 +92,10 @@ for label in ax.xaxis.get_minor_ticks():
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MDIwMTAzNiwxMzU5NjU2MDIsLTE4Nj
-U3MjIxNDIsLTExMzcwMTUwMTYsLTg4MDA5OTU5MywtMTIxNDgz
-MTk3Niw0MjYxNjY4MzEsLTgyMjU1MzkyMCw0MDgwOTUzMjAsMT
-M0NjA5MTY4OSwxMTk0NzYzMDQsLTk0Nzk0OTI5OCwyMDk3NDUz
-NzkyLDEyNDU5MDkwMzAsLTExNTc2MTM4NjcsLTEwNDEzODE4N1
-19
+eyJoaXN0b3J5IjpbODk0NTM4NzU3LDE4NjAyMDEwMzYsMTM1OT
+Y1NjAyLC0xODY1NzIyMTQyLC0xMTM3MDE1MDE2LC04ODAwOTk1
+OTMsLTEyMTQ4MzE5NzYsNDI2MTY2ODMxLC04MjI1NTM5MjAsND
+A4MDk1MzIwLDEzNDYwOTE2ODksMTE5NDc2MzA0LC05NDc5NDky
+OTgsMjA5NzQ1Mzc5MiwxMjQ1OTA5MDMwLC0xMTU3NjEzODY3LC
+0xMDQxMzgxODddfQ==
 -->
