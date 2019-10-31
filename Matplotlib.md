@@ -49,6 +49,7 @@ plt.gca().fill_between(range(len(linear_data)), #Must contain x axis
                        alpha=0.25)
 ```
 
+## Subplot
 To create subplot. create 1 row, 2 column, with the first axes.
 ```python
 plt.subplot(1, 2, 2,
@@ -114,10 +115,11 @@ for label in ax.xaxis.get_minor_ticks():
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI4Mjg1MzU4LC0xNDM0NTQ5ODgsLTMwMT
-cyNzY4MywxODYwMjAxMDM2LDEzNTk2NTYwMiwtMTg2NTcyMjE0
-MiwtMTEzNzAxNTAxNiwtODgwMDk5NTkzLC0xMjE0ODMxOTc2LD
-QyNjE2NjgzMSwtODIyNTUzOTIwLDQwODA5NTMyMCwxMzQ2MDkx
-Njg5LDExOTQ3NjMwNCwtOTQ3OTQ5Mjk4LDIwOTc0NTM3OTIsMT
-I0NTkwOTAzMCwtMTE1NzYxMzg2NywtMTA0MTM4MTg3XX0=
+eyJoaXN0b3J5IjpbNjMyMDIyNDY1LDMyODI4NTM1OCwtMTQzND
+U0OTg4LC0zMDE3Mjc2ODMsMTg2MDIwMTAzNiwxMzU5NjU2MDIs
+LTE4NjU3MjIxNDIsLTExMzcwMTUwMTYsLTg4MDA5OTU5MywtMT
+IxNDgzMTk3Niw0MjYxNjY4MzEsLTgyMjU1MzkyMCw0MDgwOTUz
+MjAsMTM0NjA5MTY4OSwxMTk0NzYzMDQsLTk0Nzk0OTI5OCwyMD
+k3NDUzNzkyLDEyNDU5MDkwMzAsLTExNTc2MTM4NjcsLTEwNDEz
+ODE4N119
 -->
