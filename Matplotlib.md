@@ -134,14 +134,20 @@ for label in ax.xaxis.get_minor_ticks():
     label.tick1line.set_markersize(0)
     label.label1.set_horizontalalignment('center')
 ```
+## Colors
+Could read matplotlib tutorial for understanding.
+```python
+from matplotlib.cm import get_cmap
+import matplotlib.colors as colors
+
 ## Animation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3OTg5NDgxNSwxNzQzMjk5MjkxLDEyMD
-Q1MzkwMTAsMzI4Mjg1MzU4LC0xNDM0NTQ5ODgsLTMwMTcyNzY4
-MywxODYwMjAxMDM2LDEzNTk2NTYwMiwtMTg2NTcyMjE0MiwtMT
-EzNzAxNTAxNiwtODgwMDk5NTkzLC0xMjE0ODMxOTc2LDQyNjE2
-NjgzMSwtODIyNTUzOTIwLDQwODA5NTMyMCwxMzQ2MDkxNjg5LD
-ExOTQ3NjMwNCwtOTQ3OTQ5Mjk4LDIwOTc0NTM3OTIsMTI0NTkw
-OTAzMF19
+eyJoaXN0b3J5IjpbLTEzMzc1MzE2OTcsMTc0MzI5OTI5MSwxMj
+A0NTM5MDEwLDMyODI4NTM1OCwtMTQzNDU0OTg4LC0zMDE3Mjc2
+ODMsMTg2MDIwMTAzNiwxMzU5NjU2MDIsLTE4NjU3MjIxNDIsLT
+ExMzcwMTUwMTYsLTg4MDA5OTU5MywtMTIxNDgzMTk3Niw0MjYx
+NjY4MzEsLTgyMjU1MzkyMCw0MDgwOTUzMjAsMTM0NjA5MTY4OS
+wxMTk0NzYzMDQsLTk0Nzk0OTI5OCwyMDk3NDUzNzkyLDEyNDU5
+MDkwMzBdfQ==
 -->
