@@ -35,7 +35,7 @@ Summary of [https://matplotlib.org/tutorials/index.html](https://matplotlib.org/
 [`gca()`](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.gca.html#matplotlib.pyplot.gca "matplotlib.pyplot.gca") returns the current axes (a [`matplotlib.axes.Axes`](https://matplotlib.org/api/axes_api.html#matplotlib.axes.Axes "matplotlib.axes.Axes") instance), and [`gcf()`](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.gcf.html#matplotlib.pyplot.gcf "matplotlib.pyplot.gcf") returns the current figure ([`matplotlib.figure.Figure`](https://matplotlib.org/api/_as_gen/matplotlib.figure.Figure.html#matplotlib.figure.Figure "matplotlib.figure.Figure") instance).
 *****
 Change x axis/y axis range: 
-`plt.axis([x_start,x_end,y_start,y_end])`, `plt.xlim()`, `plt.ylim`  
+`plt.axis([x_start,x_end,y_start,y_end])`, `plt.xlim()`, `plt.ylim()`  
 ```python
 plt.legend(['legend'],
           frameon = False, # Control the frame of legend
@@ -74,8 +74,8 @@ for label in ax.xaxis.get_minor_ticks():
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTQ4MzE5NzYsNDI2MTY2ODMxLC04Mj
-I1NTM5MjAsNDA4MDk1MzIwLDEzNDYwOTE2ODksMTE5NDc2MzA0
-LC05NDc5NDkyOTgsMjA5NzQ1Mzc5MiwxMjQ1OTA5MDMwLC0xMT
-U3NjEzODY3LC0xMDQxMzgxODddfQ==
+eyJoaXN0b3J5IjpbLTg4MDA5OTU5MywtMTIxNDgzMTk3Niw0Mj
+YxNjY4MzEsLTgyMjU1MzkyMCw0MDgwOTUzMjAsMTM0NjA5MTY4
+OSwxMTk0NzYzMDQsLTk0Nzk0OTI5OCwyMDk3NDUzNzkyLDEyND
+U5MDkwMzAsLTExNTc2MTM4NjcsLTEwNDEzODE4N119
 -->
