@@ -96,7 +96,8 @@ f3_ax3 = fig3.add_subplot(gs[1:, -1])
 f3_ax4 = fig3.add_subplot(gs[-1, 0])
 f3_ax5 = fig3.add_subplot(gs[-1, -2])
 ```
-Then we could get the figure. 
+Then we could get the figure.  
+
 ![../../_images/sphx_glr_gridspec_003.png](https://matplotlib.org/_images/sphx_glr_gridspec_003.png)
 
 Add another subplot inside the plot
@@ -134,11 +135,11 @@ for label in ax.xaxis.get_minor_ticks():
 ## Animation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MzI5OTI5MSwxMjA0NTM5MDEwLDMyOD
-I4NTM1OCwtMTQzNDU0OTg4LC0zMDE3Mjc2ODMsMTg2MDIwMTAz
-NiwxMzU5NjU2MDIsLTE4NjU3MjIxNDIsLTExMzcwMTUwMTYsLT
-g4MDA5OTU5MywtMTIxNDgzMTk3Niw0MjYxNjY4MzEsLTgyMjU1
-MzkyMCw0MDgwOTUzMjAsMTM0NjA5MTY4OSwxMTk0NzYzMDQsLT
-k0Nzk0OTI5OCwyMDk3NDUzNzkyLDEyNDU5MDkwMzAsLTExNTc2
-MTM4NjddfQ==
+eyJoaXN0b3J5IjpbLTc2Mzc1NzMxNywxNzQzMjk5MjkxLDEyMD
+Q1MzkwMTAsMzI4Mjg1MzU4LC0xNDM0NTQ5ODgsLTMwMTcyNzY4
+MywxODYwMjAxMDM2LDEzNTk2NTYwMiwtMTg2NTcyMjE0MiwtMT
+EzNzAxNTAxNiwtODgwMDk5NTkzLC0xMjE0ODMxOTc2LDQyNjE2
+NjgzMSwtODIyNTUzOTIwLDQwODA5NTMyMCwxMzQ2MDkxNjg5LD
+ExOTQ3NjMwNCwtOTQ3OTQ5Mjk4LDIwOTc0NTM3OTIsMTI0NTkw
+OTAzMF19
 -->
