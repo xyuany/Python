@@ -140,13 +140,13 @@ Could read matplotlib tutorial for understanding.
 from matplotlib.cm import get_cmap
 from matplotlib.colors import Normalize
 
-# Normalize 
-norm = Normalize(vmin=None, vmax=None)
+# Normalize is a class, when called, could normalize number
+norm = Normalize(vmin=None, vmax=None) #return a scale
 ```
 ## Animation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NTMwNTAwOSwxNzQzMjk5MjkxLDEyMD
+eyJoaXN0b3J5IjpbMTMzMjIyODk0MiwxNzQzMjk5MjkxLDEyMD
 Q1MzkwMTAsMzI4Mjg1MzU4LC0xNDM0NTQ5ODgsLTMwMTcyNzY4
 MywxODYwMjAxMDM2LDEzNTk2NTYwMiwtMTg2NTcyMjE0MiwtMT
 EzNzAxNTAxNiwtODgwMDk5NTkzLC0xMjE0ODMxOTc2LDQyNjE2
