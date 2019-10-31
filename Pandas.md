@@ -1,3 +1,5 @@
+`df.describe()`
+
 ## Time Series / Date functionality
 
 All materials come from official tutorial [https://pandas.pydata.org/pandas-docs/version/0.19/timeseries.html](https://pandas.pydata.org/pandas-docs/version/0.19/timeseries.html)
@@ -26,8 +28,8 @@ df/Series.groupby(by= mapping function / list of functions, dict, Series, or tup
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNTQ0NzgwMCwyMTUxNDQ2OSw4NDg4OT
-c4OTQsOTY2MTc4MTgyLDYwMjA5NjIxMCwxODQ5ODIwNjU5LDEz
-MjY1NTI0NzUsLTE4MjE1Mzk3NTUsMzczNDMyNjg1LC05NTQwNj
-Q2NjhdfQ==
+eyJoaXN0b3J5IjpbMTEwNDc1MDYzMiwxNzI1NDQ3ODAwLDIxNT
+E0NDY5LDg0ODg5Nzg5NCw5NjYxNzgxODIsNjAyMDk2MjEwLDE4
+NDk4MjA2NTksMTMyNjU1MjQ3NSwtMTgyMTUzOTc1NSwzNzM0Mz
+I2ODUsLTk1NDA2NDY2OF19
 -->
