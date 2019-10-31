@@ -60,9 +60,10 @@ plt.gca().fill_between(range(len(linear_data)), #Must contain x axis
 
 ### Barplot
 ```python
-plt.bar(x_lables, data, 
-		yerr = staderr*1.96, # yax
-		tick_label = x_lables, capsize = 4, color=color )
+plt.bar(x_lables, data, color=color
+		yerr = staderr*1.96, # y axis error bar
+		tick_label = x_lables, # x axis ticks
+		capsize = 4) # cap size of error bar
 ```
 ### Heatmaps
 ```python
@@ -133,11 +134,11 @@ for label in ax.xaxis.get_minor_ticks():
 ## Animation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYwNDcyMzAyLDEyMDQ1MzkwMTAsMzI4Mj
-g1MzU4LC0xNDM0NTQ5ODgsLTMwMTcyNzY4MywxODYwMjAxMDM2
-LDEzNTk2NTYwMiwtMTg2NTcyMjE0MiwtMTEzNzAxNTAxNiwtOD
-gwMDk5NTkzLC0xMjE0ODMxOTc2LDQyNjE2NjgzMSwtODIyNTUz
-OTIwLDQwODA5NTMyMCwxMzQ2MDkxNjg5LDExOTQ3NjMwNCwtOT
-Q3OTQ5Mjk4LDIwOTc0NTM3OTIsMTI0NTkwOTAzMCwtMTE1NzYx
-Mzg2N119
+eyJoaXN0b3J5IjpbMTc0MzI5OTI5MSwxMjA0NTM5MDEwLDMyOD
+I4NTM1OCwtMTQzNDU0OTg4LC0zMDE3Mjc2ODMsMTg2MDIwMTAz
+NiwxMzU5NjU2MDIsLTE4NjU3MjIxNDIsLTExMzcwMTUwMTYsLT
+g4MDA5OTU5MywtMTIxNDgzMTk3Niw0MjYxNjY4MzEsLTgyMjU1
+MzkyMCw0MDgwOTUzMjAsMTM0NjA5MTY4OSwxMTk0NzYzMDQsLT
+k0Nzk0OTI5OCwyMDk3NDUzNzkyLDEyNDU5MDkwMzAsLTExNTc2
+MTM4NjddfQ==
 -->
