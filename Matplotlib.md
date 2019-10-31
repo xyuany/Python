@@ -145,17 +145,18 @@ norm = Normalize(vmin=None, vmax=None)
 color_intensity = norm(data)
 
 #To get color
-get_cmap`(_name=None_, _lut=None_)
-
+cmap = get_cmap(name = 'color series')
+# cmap is a callable, that when passed a float between 0 and 1 returns an RGBA value from the colormap
+color = 
 ```
 ## Animation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNzYzNzk3LDE3NDMyOTkyOTEsMTIwND
-UzOTAxMCwzMjgyODUzNTgsLTE0MzQ1NDk4OCwtMzAxNzI3Njgz
-LDE4NjAyMDEwMzYsMTM1OTY1NjAyLC0xODY1NzIyMTQyLC0xMT
-M3MDE1MDE2LC04ODAwOTk1OTMsLTEyMTQ4MzE5NzYsNDI2MTY2
-ODMxLC04MjI1NTM5MjAsNDA4MDk1MzIwLDEzNDYwOTE2ODksMT
-E5NDc2MzA0LC05NDc5NDkyOTgsMjA5NzQ1Mzc5MiwxMjQ1OTA5
-MDMwXX0=
+eyJoaXN0b3J5IjpbLTE4MjU0NzQ0MTMsMTc0MzI5OTI5MSwxMj
+A0NTM5MDEwLDMyODI4NTM1OCwtMTQzNDU0OTg4LC0zMDE3Mjc2
+ODMsMTg2MDIwMTAzNiwxMzU5NjU2MDIsLTE4NjU3MjIxNDIsLT
+ExMzcwMTUwMTYsLTg4MDA5OTU5MywtMTIxNDgzMTk3Niw0MjYx
+NjY4MzEsLTgyMjU1MzkyMCw0MDgwOTUzMjAsMTM0NjA5MTY4OS
+wxMTk0NzYzMDQsLTk0Nzk0OTI5OCwyMDk3NDUzNzkyLDEyNDU5
+MDkwMzBdfQ==
 -->
