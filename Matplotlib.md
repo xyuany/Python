@@ -64,7 +64,8 @@ fig, ((ax1,ax2,ax3), (ax4,ax5,ax6), (ax7,ax8,ax9)) = plt.subplots(3, 3, sharex=T
 *****
 ## Axes
 
-`Axes` as a class and have lots of attributes, including ploting, axis/limits, 
+`Axes` as a class and have lots of attributes, including ploting, axis/limits. The following list some useful attributes. 
+
 
 ## Plot with dates
 ```Python
@@ -92,7 +93,7 @@ for label in ax.xaxis.get_minor_ticks():
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NDk4MDM4NiwxODYwMjAxMDM2LDEzNT
+eyJoaXN0b3J5IjpbLTMwMTcyNzY4MywxODYwMjAxMDM2LDEzNT
 k2NTYwMiwtMTg2NTcyMjE0MiwtMTEzNzAxNTAxNiwtODgwMDk5
 NTkzLC0xMjE0ODMxOTc2LDQyNjE2NjgzMSwtODIyNTUzOTIwLD
 QwODA5NTMyMCwxMzQ2MDkxNjg5LDExOTQ3NjMwNCwtOTQ3OTQ5
