@@ -92,11 +92,7 @@ import mpl_toolkits.axes_grid1.inset_locator as mpl_il
 ax2 = mpl_il.inset_axes(plt.gca(), width='60%', height='40%', loc=2)
 ```
 *****
-## Axes
 
-`Axes` as a class and have lots of attributes, including ploting, axis/limits. The following list some useful attributes. 
-
-`ax.invert_xaxis()`
 
 ## Plot with dates
 ```Python
@@ -124,7 +120,7 @@ for label in ax.xaxis.get_minor_ticks():
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDczMTU1NTQwLDMyODI4NTM1OCwtMTQzND
+eyJoaXN0b3J5IjpbMzE2MDgxNzI5LDMyODI4NTM1OCwtMTQzND
 U0OTg4LC0zMDE3Mjc2ODMsMTg2MDIwMTAzNiwxMzU5NjU2MDIs
 LTE4NjU3MjIxNDIsLTExMzcwMTUwMTYsLTg4MDA5OTU5MywtMT
 IxNDgzMTk3Niw0MjYxNjY4MzEsLTgyMjU1MzkyMCw0MDgwOTUz
