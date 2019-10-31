@@ -42,6 +42,7 @@ plt.legend(['legend'],
           loc = (0.25,0.015) # location, Left-lower corner, 0 is 'best', tuple is coordinates
           )
 ```
+## Common Plot
 ```Python
 plt.gca().fill_between(range(len(linear_data)), #Must contain x axis 
                        data1, data2, # y axis data
@@ -49,6 +50,7 @@ plt.gca().fill_between(range(len(linear_data)), #Must contain x axis
                        alpha=0.25)
 ```
 
+### Heatmaps
 ## Subplot
 To create subplot. create 1 row, 2 column, with the first axes.
 ```python
@@ -115,11 +117,11 @@ for label in ax.xaxis.get_minor_ticks():
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMyMDIyNDY1LDMyODI4NTM1OCwtMTQzND
-U0OTg4LC0zMDE3Mjc2ODMsMTg2MDIwMTAzNiwxMzU5NjU2MDIs
-LTE4NjU3MjIxNDIsLTExMzcwMTUwMTYsLTg4MDA5OTU5MywtMT
-IxNDgzMTk3Niw0MjYxNjY4MzEsLTgyMjU1MzkyMCw0MDgwOTUz
-MjAsMTM0NjA5MTY4OSwxMTk0NzYzMDQsLTk0Nzk0OTI5OCwyMD
-k3NDUzNzkyLDEyNDU5MDkwMzAsLTExNTc2MTM4NjcsLTEwNDEz
-ODE4N119
+eyJoaXN0b3J5IjpbLTIwNDA5OTEzNywzMjgyODUzNTgsLTE0Mz
+Q1NDk4OCwtMzAxNzI3NjgzLDE4NjAyMDEwMzYsMTM1OTY1NjAy
+LC0xODY1NzIyMTQyLC0xMTM3MDE1MDE2LC04ODAwOTk1OTMsLT
+EyMTQ4MzE5NzYsNDI2MTY2ODMxLC04MjI1NTM5MjAsNDA4MDk1
+MzIwLDEzNDYwOTE2ODksMTE5NDc2MzA0LC05NDc5NDkyOTgsMj
+A5NzQ1Mzc5MiwxMjQ1OTA5MDMwLC0xMTU3NjEzODY3LC0xMDQx
+MzgxODddfQ==
 -->
