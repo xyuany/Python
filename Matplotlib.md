@@ -48,6 +48,9 @@ plt.gca().fill_between(range(len(linear_data)), #Must contain x axis
                        facecolor='blue', 
                        alpha=0.25)
 ```
+
+To create subplot.
+`plt.subplot(1, 2, 1)` create 1 row, 2 column, with the first axes.
 ## Plot with dates
 ```Python
 dates = np.arange('2017-01-01', '2017-01-09', dtype='datetime64[D]')
@@ -74,8 +77,9 @@ for label in ax.xaxis.get_minor_ticks():
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MDA5OTU5MywtMTIxNDgzMTk3Niw0Mj
-YxNjY4MzEsLTgyMjU1MzkyMCw0MDgwOTUzMjAsMTM0NjA5MTY4
-OSwxMTk0NzYzMDQsLTk0Nzk0OTI5OCwyMDk3NDUzNzkyLDEyND
-U5MDkwMzAsLTExNTc2MTM4NjcsLTEwNDEzODE4N119
+eyJoaXN0b3J5IjpbLTExMzcwMTUwMTYsLTg4MDA5OTU5MywtMT
+IxNDgzMTk3Niw0MjYxNjY4MzEsLTgyMjU1MzkyMCw0MDgwOTUz
+MjAsMTM0NjA5MTY4OSwxMTk0NzYzMDQsLTk0Nzk0OTI5OCwyMD
+k3NDUzNzkyLDEyNDU5MDkwMzAsLTExNTc2MTM4NjcsLTEwNDEz
+ODE4N119
 -->
