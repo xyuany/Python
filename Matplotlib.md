@@ -67,7 +67,14 @@ import matplotlib.gridspec as gridspec
 
 plt.figure()
 gspec = gridspec.GridSpec(3, 3)
+f3_ax1 = fig3.add_subplot(gs[0, :])
+f3_ax2 = fig3.add_subplot(gs[1, :-1])
+f3_ax3 = fig3.add_subplot(gs[1:, -1])
+f3_ax4 = fig3.add_subplot(gs[-1, 0])
+f3_ax5 = fig3.add_subplot(gs[-1, -2])
 ```
+Then we could get the figure. 
+![../../_images/sphx_glr_gridspec_003.png](https://matplotlib.org/_images/sphx_glr_gridspec_003.png)
 *****
 ## Axes
 
@@ -100,7 +107,7 @@ for label in ax.xaxis.get_minor_ticks():
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MTQ5Nzk4MCwtMzAxNzI3NjgzLDE4Nj
+eyJoaXN0b3J5IjpbMjAxMzM4MjU2MiwtMzAxNzI3NjgzLDE4Nj
 AyMDEwMzYsMTM1OTY1NjAyLC0xODY1NzIyMTQyLC0xMTM3MDE1
 MDE2LC04ODAwOTk1OTMsLTEyMTQ4MzE5NzYsNDI2MTY2ODMxLC
 04MjI1NTM5MjAsNDA4MDk1MzIwLDEzNDYwOTE2ODksMTE5NDc2
