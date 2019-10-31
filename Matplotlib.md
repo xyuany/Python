@@ -76,6 +76,11 @@ f3_ax5 = fig3.add_subplot(gs[-1, -2])
 Then we could get the figure. 
 ![../../_images/sphx_glr_gridspec_003.png](https://matplotlib.org/_images/sphx_glr_gridspec_003.png)
 
+Add another subplot inside the 
+```python
+import mpl_toolkits.axes_grid1.inset_locator as mpl_il
+ax2 = mpl_il.inset_axes(plt.gca(), width='60%', height='40%', loc=2)
+```
 *****
 ## Axes
 
@@ -109,7 +114,7 @@ for label in ax.xaxis.get_minor_ticks():
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjE0OTk4NTgsLTE0MzQ1NDk4OCwtMz
+eyJoaXN0b3J5IjpbLTEwMTQ4OTg0NDksLTE0MzQ1NDk4OCwtMz
 AxNzI3NjgzLDE4NjAyMDEwMzYsMTM1OTY1NjAyLC0xODY1NzIy
 MTQyLC0xMTM3MDE1MDE2LC04ODAwOTk1OTMsLTEyMTQ4MzE5Nz
 YsNDI2MTY2ODMxLC04MjI1NTM5MjAsNDA4MDk1MzIwLDEzNDYw
