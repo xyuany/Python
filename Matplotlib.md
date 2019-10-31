@@ -52,7 +52,9 @@ plt.gca().fill_between(range(len(linear_data)), #Must contain x axis
 To create subplot. create 1 row, 2 column, with the first axes.
 ```python
 plt.subplot(1, 2, 2,
-			sharey=ax1 # Have fixed y axis with(1,2,1))
+			sharey=ax1 # Have fixed y axis with (1,2,1))
+# create a 3x3 grid of subplots
+fig, ((ax1,ax2,ax3), (ax4,ax5,ax6), (ax7,ax8,ax9)) = plt.subplots(3, 3, sharex=True, sharey=True)
 ```
 ## Plot with dates
 ```Python
@@ -80,9 +82,9 @@ for label in ax.xaxis.get_minor_ticks():
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA1NTE5NTAwLC0xMTM3MDE1MDE2LC04OD
-AwOTk1OTMsLTEyMTQ4MzE5NzYsNDI2MTY2ODMxLC04MjI1NTM5
-MjAsNDA4MDk1MzIwLDEzNDYwOTE2ODksMTE5NDc2MzA0LC05ND
-c5NDkyOTgsMjA5NzQ1Mzc5MiwxMjQ1OTA5MDMwLC0xMTU3NjEz
-ODY3LC0xMDQxMzgxODddfQ==
+eyJoaXN0b3J5IjpbLTE4NjU3MjIxNDIsLTExMzcwMTUwMTYsLT
+g4MDA5OTU5MywtMTIxNDgzMTk3Niw0MjYxNjY4MzEsLTgyMjU1
+MzkyMCw0MDgwOTUzMjAsMTM0NjA5MTY4OSwxMTk0NzYzMDQsLT
+k0Nzk0OTI5OCwyMDk3NDUzNzkyLDEyNDU5MDkwMzAsLTExNTc2
+MTM4NjcsLTEwNDEzODE4N119
 -->
