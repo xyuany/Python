@@ -61,6 +61,7 @@ plt.subplots(2,gridspec_kw={'hspace': 0} )	#height reserved for space between su
 # create a 3x3 grid of subplots
 fig, ((ax1,ax2,ax3), (ax4,ax5,ax6), (ax7,ax8,ax9)) = plt.subplots(3, 3, sharex=True, sharey=True)
 ```
+Create c
 *****
 ## Axes
 
@@ -93,10 +94,10 @@ for label in ax.xaxis.get_minor_ticks():
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMTcyNzY4MywxODYwMjAxMDM2LDEzNT
-k2NTYwMiwtMTg2NTcyMjE0MiwtMTEzNzAxNTAxNiwtODgwMDk5
-NTkzLC0xMjE0ODMxOTc2LDQyNjE2NjgzMSwtODIyNTUzOTIwLD
-QwODA5NTMyMCwxMzQ2MDkxNjg5LDExOTQ3NjMwNCwtOTQ3OTQ5
-Mjk4LDIwOTc0NTM3OTIsMTI0NTkwOTAzMCwtMTE1NzYxMzg2Ny
-wtMTA0MTM4MTg3XX0=
+eyJoaXN0b3J5IjpbODkzNDUxNTAyLC0zMDE3Mjc2ODMsMTg2MD
+IwMTAzNiwxMzU5NjU2MDIsLTE4NjU3MjIxNDIsLTExMzcwMTUw
+MTYsLTg4MDA5OTU5MywtMTIxNDgzMTk3Niw0MjYxNjY4MzEsLT
+gyMjU1MzkyMCw0MDgwOTUzMjAsMTM0NjA5MTY4OSwxMTk0NzYz
+MDQsLTk0Nzk0OTI5OCwyMDk3NDUzNzkyLDEyNDU5MDkwMzAsLT
+ExNTc2MTM4NjcsLTEwNDEzODE4N119
 -->
