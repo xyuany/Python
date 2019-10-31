@@ -33,6 +33,7 @@ Summary of [https://matplotlib.org/tutorials/index.html](https://matplotlib.org/
 ![../../_images/anatomy.png](https://matplotlib.org/_images/anatomy.png)
 
 [`gca()`](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.gca.html#matplotlib.pyplot.gca "matplotlib.pyplot.gca") returns the current axes (a [`matplotlib.axes.Axes`](https://matplotlib.org/api/axes_api.html#matplotlib.axes.Axes "matplotlib.axes.Axes") instance), and [`gcf()`](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.gcf.html#matplotlib.pyplot.gcf "matplotlib.pyplot.gcf") returns the current figure ([`matplotlib.figure.Figure`](https://matplotlib.org/api/_as_gen/matplotlib.figure.Figure.html#matplotlib.figure.Figure "matplotlib.figure.Figure") instance).
+
 *****
 Change x axis/y axis range: 
 `plt.axis([x_start,x_end,y_start,y_end])`, `plt.xlim()`, `plt.ylim()`  
@@ -43,6 +44,7 @@ plt.legend(['legend'],
           )
 ```
 ## Common Plot
+### Shade
 ```Python
 plt.gca().fill_between(range(len(linear_data)), #Must contain x axis 
                        data1, data2, # y axis data
@@ -51,6 +53,11 @@ plt.gca().fill_between(range(len(linear_data)), #Must contain x axis
 ```
 
 ### Heatmaps
+```python
+plt.hist2d(X, Y, bins=25)
+# add a colorbar legend
+plt.colorbar()
+```
 ## Subplot
 To create subplot. create 1 row, 2 column, with the first axes.
 ```python
@@ -117,11 +124,11 @@ for label in ax.xaxis.get_minor_ticks():
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDA5OTEzNywzMjgyODUzNTgsLTE0Mz
-Q1NDk4OCwtMzAxNzI3NjgzLDE4NjAyMDEwMzYsMTM1OTY1NjAy
-LC0xODY1NzIyMTQyLC0xMTM3MDE1MDE2LC04ODAwOTk1OTMsLT
-EyMTQ4MzE5NzYsNDI2MTY2ODMxLC04MjI1NTM5MjAsNDA4MDk1
-MzIwLDEzNDYwOTE2ODksMTE5NDc2MzA0LC05NDc5NDkyOTgsMj
-A5NzQ1Mzc5MiwxMjQ1OTA5MDMwLC0xMTU3NjEzODY3LC0xMDQx
-MzgxODddfQ==
+eyJoaXN0b3J5IjpbNDczMTU1NTQwLDMyODI4NTM1OCwtMTQzND
+U0OTg4LC0zMDE3Mjc2ODMsMTg2MDIwMTAzNiwxMzU5NjU2MDIs
+LTE4NjU3MjIxNDIsLTExMzcwMTUwMTYsLTg4MDA5OTU5MywtMT
+IxNDgzMTk3Niw0MjYxNjY4MzEsLTgyMjU1MzkyMCw0MDgwOTUz
+MjAsMTM0NjA5MTY4OSwxMTk0NzYzMDQsLTk0Nzk0OTI5OCwyMD
+k3NDUzNzkyLDEyNDU5MDkwMzAsLTExNTc2MTM4NjcsLTEwNDEz
+ODE4N119
 -->
