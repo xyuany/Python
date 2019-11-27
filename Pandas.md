@@ -30,9 +30,15 @@ df/Series.groupby(by= mapping function / list of functions, dict, Series, or tup
 
 `df.count()` count the values
 `df.value_counts()` count unique values
+
+## Missing values
+
+`df.dropna(self, _axis=0_, how='any', _subset=[column])`
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MDk2Njg3MywxMTA0NzUwNjMyLDE3Mj
-U0NDc4MDAsMjE1MTQ0NjksODQ4ODk3ODk0LDk2NjE3ODE4Miw2
-MDIwOTYyMTAsMTg0OTgyMDY1OSwxMzI2NTUyNDc1LC0xODIxNT
-M5NzU1LDM3MzQzMjY4NSwtOTU0MDY0NjY4XX0=
+eyJoaXN0b3J5IjpbLTEyODEyODA5NDMsLTM4MDk2Njg3MywxMT
+A0NzUwNjMyLDE3MjU0NDc4MDAsMjE1MTQ0NjksODQ4ODk3ODk0
+LDk2NjE3ODE4Miw2MDIwOTYyMTAsMTg0OTgyMDY1OSwxMzI2NT
+UyNDc1LC0xODIxNTM5NzU1LDM3MzQzMjY4NSwtOTU0MDY0NjY4
+XX0=
 -->
