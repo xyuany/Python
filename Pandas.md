@@ -29,10 +29,10 @@ df/Series.groupby(by= mapping function / list of functions, dict, Series, or tup
 ## Computation/Description
 
 `df.count()` count the values
-`df.value_counts()` count unique v
+`df.value_counts()` count unique values
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NzQ2MDU5LDExMDQ3NTA2MzIsMTcyNT
-Q0NzgwMCwyMTUxNDQ2OSw4NDg4OTc4OTQsOTY2MTc4MTgyLDYw
-MjA5NjIxMCwxODQ5ODIwNjU5LDEzMjY1NTI0NzUsLTE4MjE1Mz
-k3NTUsMzczNDMyNjg1LC05NTQwNjQ2NjhdfQ==
+eyJoaXN0b3J5IjpbLTM4MDk2Njg3MywxMTA0NzUwNjMyLDE3Mj
+U0NDc4MDAsMjE1MTQ0NjksODQ4ODk3ODk0LDk2NjE3ODE4Miw2
+MDIwOTYyMTAsMTg0OTgyMDY1OSwxMzI2NTUyNDc1LC0xODIxNT
+M5NzU1LDM3MzQzMjY4NSwtOTU0MDY0NjY4XX0=
 -->
