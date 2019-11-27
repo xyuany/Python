@@ -26,10 +26,13 @@ df.reset_index().set_index('New Index')
 ```Python
 df/Series.groupby(by= mapping function / list of functions, dict, Series, or tuple, ['column names'], axis=0, sort= True)
 ```
+## Computation/Description
 
+`df.count()` count the values
+`df.value_counts()` count unique v
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNDc1MDYzMiwxNzI1NDQ3ODAwLDIxNT
-E0NDY5LDg0ODg5Nzg5NCw5NjYxNzgxODIsNjAyMDk2MjEwLDE4
-NDk4MjA2NTksMTMyNjU1MjQ3NSwtMTgyMTUzOTc1NSwzNzM0Mz
-I2ODUsLTk1NDA2NDY2OF19
+eyJoaXN0b3J5IjpbLTU3NzQ2MDU5LDExMDQ3NTA2MzIsMTcyNT
+Q0NzgwMCwyMTUxNDQ2OSw4NDg4OTc4OTQsOTY2MTc4MTgyLDYw
+MjA5NjIxMCwxODQ5ODIwNjU5LDEzMjY1NTI0NzUsLTE4MjE1Mz
+k3NTUsMzczNDMyNjg1LC05NTQwNjQ2NjhdfQ==
 -->
