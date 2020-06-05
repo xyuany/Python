@@ -9,6 +9,7 @@ Created on Thu Jun  4 15:35:11 2020
 """
 
 from ch4_Queue import Queue
+from ch4_Queue import Deque
 import random
 
 def hotPotato(namelist,num):
@@ -114,9 +115,27 @@ def simulation(numSeconds, pagePerMinute):
     #计算等待时间
     averageWait = sum(waitingtimes)/len(waitingtimes)
     print("Average Wait %6.2f secs %3d tasks remaining." % (averageWait, printQueue.size()))
-             
 
+"""
+双端队列用例
+"""
+def palChecker(string):
+    """回文数判断"""
+    charDeque = Deque()
+    
+    for char in string:
+        charDeque.add_rear(char)
+    
+    while charDeque.size() >1:
+        if charDeque.remove_front() != charDeque.remove_rear():
+            return False
+    
+    return True
+
+    
 if __name__ == '__main__':
     #print(hotPotato(range(1,50),7))
-    for i in range(10):
-        simulation(3600, 5)
+    #for i in range(10):
+    #    simulation(3600, 5)
+    print(palChecker('lsdkjfskf'))
+    print(palChecker('rthejhjehtr'))
